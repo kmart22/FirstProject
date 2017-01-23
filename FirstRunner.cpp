@@ -6,5 +6,11 @@
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
-#include "stdio.h"
+#include "firstController.h"
 
+int main()
+{
+    FirstController * app = new FirstController();
+    app-> start();
+    return 0;
+}
